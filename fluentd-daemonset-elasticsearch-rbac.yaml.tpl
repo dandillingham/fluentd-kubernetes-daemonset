@@ -83,7 +83,7 @@ spec:
           - name: FLUENT_ELASTICSEARCH_USER
             value: "elastic"
           - name: FLUENT_ELASTICSEARCH_PASSWORD
-            value: "Li0Jvu77Az39v7k86qpI3X3e"
+            value: "{{ .elasticsearch_password }}"
           - name: FLUENTD_SYSTEMD_CONF
             value: "disable"
           - name: FLUENT_CONTAINER_TAIL_PARSER_TYPE
